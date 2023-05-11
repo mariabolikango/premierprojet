@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+/* BARRE DE NAVIGATION*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    padding: 20px;
+    background-color: bisque;
+    position: static;
+    top: 0;
+}
+nav h1{
+    font-size: 30px;
+}
+
+nav .onglets{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav .onglets p{
+    font-size: 17px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+nav .onglets input{
+    margin: 8px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: #f2f2f2;
+}
+/*FIN BARRE DE NAVIGATION*/
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*------------- HEADER--------------*/
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header h1{
+    font-size: 40px;
+    text-align: center;
+}
+header button{
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+/*---------- fin HEADER------------------ */
+
+/*---------- SECTION PRINCIPALE----------*/
+.main{
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*--------toutes les cartes------------*/
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards .card{
+    margin: 20px;
+    cursor: pointer;
+}
+.cards .card img{
+    width: 350px;
+    border-radius: 25%;
+}
+.cards .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -15px;
+}
+.cards .card .card-body p{
+    margin-top: -15px;
+}
+/*---------fin de toutes les cartes---------*/
+/*------------FIN SECTION PRINCIPALE-------*/
+/*-------- footer--------*/
+footer{
+    margin-top: 100px;
+    background-color: black;
+    color: azure;
+}
